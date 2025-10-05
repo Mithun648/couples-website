@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ffafbd, #ffc3a0); /* A nice pink/orange gradient */
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+}
+
+h1 {
+    color: #e91e63;
+}
+
+#timer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#timer span {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    background: #e91e63;
+    color: white;
+    border-radius: 5px;
+    min-width: 50px;
+}
+
+.love-note textarea {
+    width: 90%;
+    height: 100px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.love-note button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#savedNote {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f0f8ff;
+    border-left: 5px solid #2196F3;
+    text-align: left;
+    white-space: pre-wrap; /* Keeps the formatting of the text */
+}

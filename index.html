@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Secret Website ❤️</title>
+    <!-- This links our CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>hey baby ❤️</h1>
+            <p>This is just for us.</p>
+        </header>
+
+        <section class="countdown">
+            <h2>Our Next Adventure In:</h2>
+            <div id="timer">
+                <span id="days">0</span>Days
+                <span id="hours">0</span>Hrs
+                <span id="minutes">0</span>Min
+                <span id="seconds">0</span>Sec
+            </div>
+        </section>
+
+        <section class="love-note">
+            <h2>Leave a Note for Me</h2>
+            <textarea id="noteInput" placeholder="Type something sweet..."></textarea>
+            <button onclick="saveNote()">Save Note</button>
+            <div id="savedNote"></div>
+        </section>
+    </div>
+
+    <!-- This links our JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
